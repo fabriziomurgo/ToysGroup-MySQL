@@ -1,27 +1,34 @@
-ll database che ho creato si chiama ToysGroup ed è nato per gestire e analizzare le vendite di prodotti di una società di giocattoli. Contiene informazioni relative ai prodotti, alle vendite e alle regioni di vendita.
-Tabelle principali:
-1.	Sales:
-	Contiene 20 righe di dati.
-	Non include il prezzo e la quantità perché si assume che ogni ordine si riferisca a un singolo pezzo del prodotto dove il prezzo è specificato in quest’ultima tabella.
-	Campi principali:
-	IDSales (Identificatore univoco della vendita PK)
-	Order_Number (Numero dell’ordine)
-	Order_Date (Data dell’ordine)
-	IDProduct (Collegamento alla tabella Product FK)
-	IDRegion (Collegamento alla tabella Region FK)
-2.	Product:
-	Contiene 20 righe di dati.
-	Campi principali:
-	IDProduct (Identificatore univoco del prodotto PK)
-	Product_Name (Nome del prodotto)
-	Category (Categoria del prodotto)
-	Price (Prezzo del prodotto)
-3.	Region:
-	Contiene 10 righe di dati.
-	Campi principali:
-	IDRegion (Identificatore univoco della regione PK)
-	State (Nome dello stato)
-	Area (Area geografica)
-Relazioni tra le tabelle:
-•	La tabella Sales è collegata alla tabella Product tramite la chiave ProductID.
-•	La tabella Sales è collegata alla tabella Region tramite il la chiave RegionID.
+🎯 Scopo del progetto
+Il database ToysGroup è stato progettato per gestire e analizzare le vendite di prodotti di una società attiva nel settore dei giocattoli. Il modello relazionale consente di monitorare informazioni su prodotti, vendite e aree geografiche.
+
+📦 Tabella Product
+Contiene 20 righe di dati relativi agli articoli.
+Campi principali:
+- IDProduct (PK)
+- Product_Name 
+- Category 
+- Price
+  
+🧾 Tabella Sales
+Raccoglie 20 ordini, ognuno riferito a un singolo pezzo.
+Campi principali:
+- IDSales (PK)
+- Order_Number #️
+- Order_Date 
+- IDProduct (FK)
+- IDRegion (FK)
+  
+🌍 Tabella Region
+Descrive 10 stati raggruppati per area geografica.
+Campi principali:
+- IDRegion (PK)
+- State 
+- Area
+  
+🔗 Relazioni
+- Sales è collegata a Product tramite IDProduct
+- Sales è collegata a Region tramite IDRegion
+
+
+![image](https://github.com/user-attachments/assets/16e1d97b-bdf6-4d5d-a9d0-b00384922b12)
+
