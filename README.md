@@ -1,5 +1,6 @@
-🎯 Scopo del progetto
+# Esercitazione finale MySQL
 
+🎯 Scopo del progetto
 Il database ToysGroup è stato progettato interamente in **MySQL** per gestire e analizzare le vendite di prodotti di una società attiva nel settore dei giocattoli. Il modello relazionale consente di monitorare informazioni su prodotti, vendite e aree geografiche.
 
 📦 Tabella Product
