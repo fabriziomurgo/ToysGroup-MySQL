@@ -38,7 +38,7 @@ Campi principali:
 # Final MySQL Project
 
 🎯 Project Goal
-The ToysGroup database was entirely designed in MySQL to manage and analyze product sales for a company operating in the toy industry. The relational model allows for monitoring information about products, sales, and geographic areas.
+The ToysGroup database was entirely designed in **MySQL** to manage and analyze product sales for a company operating in the toy industry. The relational model allows for monitoring information about products, sales, and geographic areas.
 
 📦 Product Table
 Contains 20 rows of data related to items.
